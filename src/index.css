@@ -4,7 +4,6 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -16,6 +15,7 @@ body {
 	overflow-x: hidden;
 	color: #000;
 	background-color: #fff;
+	font-family: 'text-medium', sans-serif;
 }
 
 a,
@@ -90,6 +90,6 @@ input[type='submit'] {
 .container {
 	background: #fff;
 	/* max-width: 1080px; */
-	padding: 45px 75px 45px 262px;
+	padding: 0 75px 0 262px;
 	margin: 0 auto;
 }
