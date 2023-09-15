@@ -32,7 +32,12 @@ const Header = () => {
 				</svg>
 				<h1 className={styles.title}>Вступайте в клуб Самокатов</h1>
 				<div className={styles.text}>
-					Купите абонемент, чтобы стать частью клуба в новом сезоне-2024. 8 месяцев за 499 ₽{' '}
+					Купите абонемент, чтобы стать частью клуба в новом сезоне-2024.
+					<br /> 8 месяцев за
+					<div className={styles.price}>
+						<span className={styles.newPrice}>499 ₽</span>
+						<span className={styles.oldPrice}>3190 ₽</span>
+					</div>
 				</div>
 				<Button>Стать частью клуба</Button>
 			</div>
