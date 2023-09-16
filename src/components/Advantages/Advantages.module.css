@@ -1,0 +1,32 @@
+.title {
+	color: #21201f;
+	font-family: 'text-black', sans-serif;
+	font-size: 56px;
+	font-weight: 900;
+	line-height: 100%;
+	letter-spacing: -1.12px;
+	margin-bottom: 48px;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 112px;
+	margin-bottom: 128px;
+}
+
+.item {
+	max-width: 400px;
+}
+
+.image {
+	margin-bottom: 16px;
+}
+
+.text {
+	color: #21201f;
+	font-family: 'text-medium', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 120%;
+}
