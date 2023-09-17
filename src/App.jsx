@@ -1,5 +1,6 @@
 import Advantages from './components/Advantages/Advantages';
 import Header from './components/Header/Header';
+import Info from './components/Info/Info';
 import './index.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
 			<Header />
 			<div className="container">
 				<Advantages />
+				<Info />
 			</div>
 		</>
 	);

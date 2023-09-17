@@ -1,0 +1,15 @@
+.root {
+	max-width: 906px;
+	color: #c5c5c5;
+	font-family: 'text-regular', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 120%;
+	margin-bottom: 128px;
+}
+
+.root .link {
+	color: #c5c5c5;
+
+	text-decoration: underline;
+}
