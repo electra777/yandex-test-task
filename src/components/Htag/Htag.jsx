@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Htag.module.css';
 
-const Htag = ({ tag }) => {
+const Htag = ({ tag, children }) => {
 	switch (tag) {
 		case 'h1':
 			return <h1 className={styles.h1}>{children}</h1>;

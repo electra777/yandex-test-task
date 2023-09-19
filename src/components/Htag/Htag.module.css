@@ -10,12 +10,15 @@
 
 .h1 {
 	font-size: 72px;
+	letter-spacing: -1.44px;
 }
 
 .h2 {
 	font-size: 56px;
+	letter-spacing: -1.12px;
 }
 
 .h3 {
 	font-size: 48px;
+	letter-spacing: -0.96px;
 }

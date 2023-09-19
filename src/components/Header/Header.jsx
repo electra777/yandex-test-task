@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 import Button from '../Button/Button';
+import Htag from '../Htag/Htag';
 
 const Header = () => {
 	return (
@@ -30,7 +31,7 @@ const Header = () => {
 						fill="#21201F"
 					/>
 				</svg>
-				<h1 className={styles.title}>Вступайте в клуб Самокатов</h1>
+				<Htag tag="h1">Вступайте в клуб Самокатов</Htag>
 				<div className={styles.text}>
 					Купите абонемент, чтобы стать частью клуба в новом сезоне-2024.
 					<br /> 8 месяцев за
