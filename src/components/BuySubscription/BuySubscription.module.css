@@ -1,0 +1,15 @@
+.root {
+	margin-bottom: 111px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 57px;
+}
+
+.text {
+	color: #21201f;
+	font-family: 'text-medium', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 120%;
+	margin-bottom: 48px;
+}

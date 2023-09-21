@@ -1,4 +1,5 @@
 import Advantages from './components/Advantages/Advantages';
+import BuySubscription from './components/BuySubscription/BuySubscription';
 import ExclusiveAccess from './components/ExclusiveAccess/ExclusiveAccess';
 import Header from './components/Header/Header';
 import Info from './components/Info/Info';
@@ -11,6 +12,7 @@ function App() {
 			<div className="container">
 				<Advantages />
 				<ExclusiveAccess />
+				<BuySubscription />
 				<Info />
 			</div>
 		</>
