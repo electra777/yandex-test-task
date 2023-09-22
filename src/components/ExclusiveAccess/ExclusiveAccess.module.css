@@ -1,3 +1,39 @@
 .root {
 	margin-bottom: 100px;
 }
+
+.box {
+	display: flex;
+	gap: 15px;
+}
+
+.col {
+}
+
+.text {
+	color: #21201f;
+	font-family: 'text-medium', sans-serif;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 120%;
+	max-width: 445px;
+	margin-bottom: 70px;
+}
+
+.imageWrapper {
+	position: relative;
+}
+
+.imageWrapper::before {
+	content: '';
+	position: absolute;
+}
+
+.imageWrapperPeople {
+	padding-top: 50px;
+}
+
+.imageWrapper img {
+	max-width: 456px;
+	border-radius: 25%;
+}
