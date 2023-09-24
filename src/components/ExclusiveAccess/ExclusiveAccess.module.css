@@ -33,6 +33,30 @@
 	padding-top: 50px;
 }
 
+.imageWrapperPeople::before {
+	width: 345px;
+	height: 280px;
+	right: -150px;
+	top: -35px;
+	background: url('../../../public/img/ExclusiveAccess-1-before.png') no-repeat;
+}
+
+.imageWrapperMan::before {
+	width: 350px;
+	height: 325px;
+	left: -200px;
+	top: -25px;
+	background: url('../../../public/img/ExclusiveAccess-2-before.png') no-repeat;
+}
+
+.imageWrapperSunGirl::before {
+	width: 390px;
+	height: 345px;
+	right: -150px;
+	bottom: -180px;
+	background: url('../../../public/img/ExclusiveAccess-3-before.png') no-repeat;
+}
+
 .imageWrapper img {
 	max-width: 456px;
 	border-radius: 25%;
